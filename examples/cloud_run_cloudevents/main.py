@@ -18,4 +18,6 @@ import sys
 
 
 def hello(cloudevent):
-    print("Received event with ID: %s" % cloudevent.EventID(), file=sys.stdout, flush=True)
+    msg = f"Received event with ID: {cloudevent['id']}"
+    print(msg, file=sys.stdout, flush=True)
+    return msg

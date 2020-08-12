@@ -1,0 +1,1 @@
+{'attributes': {'specversion': '0.3', 'id': 'my-id', 'source': 'from-galaxy-far-far-away', 'type': 'cloudevent.greet.you', 'time': 'tomorrow', 'content-type': 'application/json'}, 'data': '{"name": "john"}'}
